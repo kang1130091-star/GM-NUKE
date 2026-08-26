@@ -246,5 +246,5 @@ async def no_permission_slash(interaction: discord.Interaction):
 
 # 啟動機器人
 bot.run(
-    "MTU0MTYxNDE1MTgxNjcwODIyNw.GmCcWg.OZcS-mnSCigjtrBYNEAcCOGb1THHzDO63HB4KU"
+    "MTU0MTYxNDE1MTgxNjcwODIyNw.GUXIfR.2u-RH7sYdKgFslTIFf5s5AJD2CXPd1eHnH3Nfc"
 )
